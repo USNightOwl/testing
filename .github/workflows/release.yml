@@ -9,9 +9,6 @@ on:
 
 jobs:
   build:
-    permissions:
-      id-token: read # to verify the deployment originates from an appropriate source
-
     name: Create Release
     runs-on: ubuntu-latest
     steps:
