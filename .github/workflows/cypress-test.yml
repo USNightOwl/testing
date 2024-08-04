@@ -72,8 +72,8 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           build: yarn cypress info
-          start: yarn cy:test
-          wait-on: "http://localhost:3000/quizz"
+          start: yarn dev
+          wait-on: "http://localhost:3000/testing-cypress"
           wait-on-timeout: 120
           browser: chrome
           record: true
@@ -88,3 +88,4 @@ jobs:
         #   # determine the unique run id necessary to re-run the checks
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         #   DEBUG: "cypress:server:args"
+
