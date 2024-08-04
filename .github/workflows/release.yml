@@ -23,8 +23,6 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           body: |
-            Bản release này cung cấp source code của chương trình sử dụng các công nghệ
-            - Vue3
-            - Pinia
+            Hello, world
           draft: false
           prerelease: false
