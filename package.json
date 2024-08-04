@@ -1,6 +1,6 @@
 {
-  "name": "quizz",
-  "homepage": "https://usnightowl.github.io/quizz",
+  "name": "testing-cypress",
+  "homepage": "https://usnightowl.github.io/testing-cypress",
   "private": true,
   "version": "0.0.0",
   "type": "module",
