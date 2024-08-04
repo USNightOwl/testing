@@ -30,7 +30,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory("quizz/"),
+  history: createWebHistory("testing-cypress/"),
   routes,
   scrollBehavior() {
     document.getElementById('app')?.scrollIntoView({ behavior: 'smooth' });
