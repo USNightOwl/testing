@@ -2,6 +2,11 @@
 docker pull haonhat0703/quizz
 docker run -dp 3000:3000 haonhat0703/quizz
 ```
+
+[Disabling or limiting GitHub Actions for your organization (for release.yml file)](https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization#setting-the-permissions-of-the-github_token-for-your-organization)
+
+![alt text](image.png)
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
