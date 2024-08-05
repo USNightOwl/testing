@@ -35,3 +35,9 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('login', () => {
+  cy.visit(Cypress.env('home_url'))
+  cy.wait(2000)
+})
+
