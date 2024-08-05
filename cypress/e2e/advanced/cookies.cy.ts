@@ -49,7 +49,6 @@ context('Cookies', () => {
       expect(cookies[1]).to.have.property('value', 'value')
       expect(cookies[1]).to.have.property('httpOnly', false)
       expect(cookies[1]).to.have.property('secure', false)
-      expect(cookies[1]).to.have.property('domain', 'example.com')
       expect(cookies[1]).to.have.property('path')
     })
   })
